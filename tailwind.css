@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --bg-color: #f3f2ef;
+        --bg-primary: #ffffff;
+        --primary-divider: #00000014;
+        --text-primary: #000000e6;
+        --text-secondary: #00000099;
+        --brand-color: #0a66c2;
+        --bg-search: #eef3f8;
+        --color-icon: rgba(0, 0, 0, 0.6);
+        --brand-accent: #915907;
+
+    }
+
+    html,
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+@layer components{
+    .nav-item {
+        @apply flex flex-col justify-center items-center min-w-[80px] min-h-[52px]
+    }
+}
