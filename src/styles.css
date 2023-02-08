@@ -582,8 +582,6 @@ html,
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
 }
 
 @media (min-width: 640px){
@@ -663,20 +661,12 @@ html,
   height: 1rem;
 }
 
-.min-h-\[52px\]{
-  min-height: 52px;
-}
-
 .w-72{
   width: 18rem;
 }
 
 .w-4{
   width: 1rem;
-}
-
-.min-w-\[80px\]{
-  min-width: 80px;
 }
 
 .max-w-\[125px\]{
@@ -699,16 +689,8 @@ html,
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.flex-col{
-  flex-direction: column;
-}
-
 .items-center{
   align-items: center;
-}
-
-.justify-center{
-  justify-content: center;
 }
 
 .justify-between{
